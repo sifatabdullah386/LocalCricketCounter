@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#8BC34A"
+    tools:context=".RegisterActivity">
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:visibility="gone"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:padding="20dp"
+        android:layout_centerVertical="true">
+
+        <TextView
+            android:id="@+id/helloText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:textColor="#fff"
+            android:text="@string/app_name"
+            android:textSize="40sp"
+            android:fontFamily="cursive"
+            android:layout_marginBottom="60dp"
+            android:textStyle="bold"/>
+
+        <EditText
+            android:id="@+id/emailEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Email"
+            android:textSize="15sp"
+            android:textColorHint="#fff"
+            android:backgroundTint="#FF5722"
+            android:textColor="#161616"
+            android:inputType="textEmailAddress"/>
+
+        <EditText
+            android:id="@+id/passwordEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Password"
+            android:textColorHint="#fff"
+            android:backgroundTint="#FF5722"
+            android:textColor="#161616"
+            android:textSize="15sp"
+            android:inputType="textPassword"/>
+
+        <EditText
+            android:id="@+id/confirmPasswordEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Confirm Password"
+            android:textColorHint="#fff"
+            android:backgroundTint="#FF5722"
+            android:textColor="#161616"
+            android:textSize="15sp"
+            android:inputType="textPassword"/>
+
+        <Button
+            android:id="@+id/signUpButton"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:padding="10dp"
+            android:background="#08413B"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:text="sign up"
+            android:textSize="25sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_marginTop="10dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Already have an account?"
+                android:textSize="12sp"
+                android:textStyle="bold"
+                android:textColor="#0C0C0C"
+                android:alpha="0.8"/>
+
+            <TextView
+                android:id="@+id/logInTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:text="LOG IN !!"
+                android:textSize="12sp"
+                android:textColor="#009688"
+                android:layout_marginLeft="5dp"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>

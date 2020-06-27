@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.Toolbar
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="?android:attr/actionBarSize"
+    android:background="@drawable/app_bar_baackground">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/app_bar_baackground"
+        android:orientation="horizontal"
+        android:weightSum="2"
+        android:layout_marginEnd="15dp">
+
+        <ImageView
+            android:id="@+id/toolbarButton"
+            android:layout_width="50dp"
+            android:layout_weight="1"
+            android:layout_height="?android:attr/actionBarSize"
+            android:src="@drawable/back_button_24dp" />
+
+        <TextView
+            android:text="Local Cricket Score Calculator"
+            android:id="@+id/toolrbarText"
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:layout_height="?android:attr/actionBarSize"
+            android:layout_marginStart="5dp"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:textColor="#fff"
+            android:gravity="center"
+            android:textAllCaps="true"/>
+
+    </LinearLayout>
+
+</androidx.appcompat.widget.Toolbar>

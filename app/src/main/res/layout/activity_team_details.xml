@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".TeamDetailsActivity">
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/toolbar"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        <LinearLayout
+            android:id="@+id/playersLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/team_a_team_details"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#F6FAF6"
+                android:background="#43A047"
+                android:textAlignment="center"
+                android:padding="7dp"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:text="Team A"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+                <EditText
+                    android:id="@+id/team_a_player_1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Team A Player 1"/>
+                <EditText
+                    android:id="@+id/team_a_player_2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Team A Player 2"/>
+                <EditText
+                    android:id="@+id/team_a_player_3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Team A Player 3"/>
+                <EditText
+                    android:id="@+id/team_a_player_4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Team A Player 4"/>
+                <EditText
+                    android:id="@+id/team_a_player_5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Team A Player 5"/>
+                <EditText
+                    android:id="@+id/team_a_player_6"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Team A Player 6"/>
+                <EditText
+                    android:id="@+id/team_a_player_7"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Team A Player 7"/>
+                <EditText
+                    android:id="@+id/team_a_player_8"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Team A Player 8"/>
+                <EditText
+                    android:id="@+id/team_a_player_9"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Team A Player 9"/>
+                <EditText
+                    android:id="@+id/team_a_player_10"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Team A Player 10"/>
+                <EditText
+                    android:id="@+id/team_a_player_11"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Team A Player 11"/>
+            </LinearLayout>
+            <TextView
+                android:id="@+id/team_b_team_details"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#F6FAF6"
+                android:background="#1E88E5"
+                android:textAlignment="center"
+                android:padding="7dp"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:text="Team B"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+                <EditText
+                    android:id="@+id/team_b_player_1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Team B Player 1"/>
+                <EditText
+                    android:id="@+id/team_b_player_2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Team B Player 2"/>
+                <EditText
+                    android:id="@+id/team_b_player_3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Team B Player 3"/>
+                <EditText
+                    android:id="@+id/team_b_player_4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Team B Player 4"/>
+                <EditText
+                    android:id="@+id/team_b_player_5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Team B Player 5"/>
+                <EditText
+                    android:id="@+id/team_b_player_6"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Team B Player 6"/>
+                <EditText
+                    android:id="@+id/team_b_player_7"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Team B Player 7"/>
+                <EditText
+                    android:id="@+id/team_b_player_8"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Team B Player 8"/>
+                <EditText
+                    android:id="@+id/team_b_player_9"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Team B Player 9"/>
+                <EditText
+                    android:id="@+id/team_b_player_10"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Team B Player 10"/>
+                <EditText
+                    android:id="@+id/team_b_player_11"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Team B Player 11"/>
+            </LinearLayout>
+            <Button
+                android:id="@+id/playersToScoreButton"
+                android:layout_width="200dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:layout_marginBottom="20dp"
+                android:text="Next"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                android:textColor="#fff"
+                android:background="#E53935"/>
+        </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+</LinearLayout>

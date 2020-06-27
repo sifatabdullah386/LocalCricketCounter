@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MatchResultActivity">
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/toolbar"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:weightSum="4">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#2F1B58"
+                android:padding="8dp"
+                android:textAlignment="center"
+                android:textColor="#FAFCFB"
+                android:textStyle="bold"
+                android:text="Display Board"
+                android:textSize="30sp" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:weightSum="2"
+            android:orientation="horizontal"
+            android:gravity="center">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:gravity="center">
+                <TextView
+                    android:id="@+id/show_team_1_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textAlignment="center"
+                    android:background="#00897B"
+                    android:padding="3dp"
+                    android:textColor="#E6E7F0"
+                    android:textStyle="bold"
+                    android:text="Team A"
+                    android:textSize="20sp" />
+                <TextView
+                    android:id="@+id/show_team_1_runs_wickets"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="6dp"
+                    android:textColor="#5D5F5F"
+                    android:textStyle="bold"
+                    android:text="Runs: 0/0"
+                    android:textSize="25sp" />
+                <TextView
+                    android:id="@+id/show_team_1_overs_balls"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="6dp"
+                    android:textColor="#5D5F5F"
+                    android:textStyle="bold"
+                    android:text="Overs: 0.0"
+                    android:textSize="18sp" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:gravity="center">
+                <TextView
+                    android:id="@+id/show_team_2_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textAlignment="center"
+                    android:padding="3dp"
+                    android:background="#E53935"
+                    android:textColor="#F1EDED"
+                    android:textStyle="bold"
+                    android:text="Team B"
+                    android:textSize="20sp" />
+                <TextView
+                    android:id="@+id/show_team_2_runs_wickets"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="6dp"
+                    android:textColor="#5D5F5F"
+                    android:textStyle="bold"
+                    android:text="Runs: 0/0"
+                    android:textSize="25sp" />
+                <TextView
+                    android:id="@+id/show_team_2_overs_balls"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="6dp"
+                    android:textColor="#5D5F5F"
+                    android:textStyle="bold"
+                    android:text="Overs: 0.0"
+                    android:textSize="18sp" />
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:gravity="center">
+            <TextView
+                android:id="@+id/show_wining_team"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#818080"
+                android:textStyle="bold"
+                android:text="Team A win by 0 Runs"
+                android:textSize="20sp" />
+        </LinearLayout>
+            <Button
+                android:id="@+id/go_to_main"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_margin="5dp"
+                android:background="@drawable/calculate_offline_background"
+                android:text="Exit"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textSize="28sp"
+                android:textStyle="bold|italic" />
+    </LinearLayout>
+
+</LinearLayout>

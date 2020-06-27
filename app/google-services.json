@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "952016958458",
+    "firebase_url": "https://localcricketcounter-ed1b7.firebaseio.com",
+    "project_id": "localcricketcounter-ed1b7",
+    "storage_bucket": "localcricketcounter-ed1b7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:952016958458:android:71c843ca538d9b20",
+        "android_client_info": {
+          "package_name": "com.example.localcricketcounter"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "952016958458-e3dukjv2erji6ghkjh5cmjvfb67q5mbq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.localcricketcounter",
+            "certificate_hash": "a2b9aa4c707fd167b8c782cc736cad1ffdbdc5ee"
+          }
+        },
+        {
+          "client_id": "952016958458-p26i58hlha0kvask5os4sojapfngoac9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCB3fg4veV2yCGU-fhCJxk73Fqg4m8eitw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "952016958458-p26i58hlha0kvask5os4sojapfngoac9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

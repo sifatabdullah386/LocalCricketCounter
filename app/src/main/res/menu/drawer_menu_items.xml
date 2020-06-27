@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+    <item android:title="@string/add_match">
+        <menu>
+            <item
+                android:id="@+id/drawer_new_match"
+                android:icon="@drawable/drawer_add_match"
+                android:title="@string/drawer_new_match" />
+            <item
+                android:id="@+id/drawer_save_matches"
+                android:icon="@drawable/drawer_save_matches"
+                android:title="@string/drawer_save_matches" />
+            <item
+                android:id="@+id/drawer_my_profile"
+                android:icon="@drawable/profile1"
+                android:title="@string/drawer_my_profile" />
+        </menu>
+    </item>
+
+    <item android:title="@string/communicate">
+        <menu >
+            <item
+                android:id="@+id/drawer_share"
+                android:icon="@drawable/drawer_share"
+                android:title="@string/drawer_share" />
+            <item
+                android:id="@+id/drawer_rate_us"
+                android:icon="@drawable/drawer_rate_us"
+                android:title="@string/drawer_rate_us" />
+            <item
+                android:id="@+id/drawer_about_the_apps"
+                android:icon="@drawable/drawer_about_us"
+                android:title="@string/drawer_about_the_apps" />
+        </menu>
+
+    </item>
+
+</menu>
